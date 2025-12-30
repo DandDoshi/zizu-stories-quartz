@@ -38,7 +38,12 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      title: "Навигация", // заголовок меню
+      folderClickBehavior: "collapse", // папки будут сворачиваться/разворачиваться
+      folderDefaultState: "collapsed", // по умолчанию всё закрыто
+      useSavedState: true, // запоминает, что мастер открыл
+    }),
   ],
   right: [
     Component.Graph(),

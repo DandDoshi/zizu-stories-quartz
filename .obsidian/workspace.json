@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/Сессии/Сессии.md",
+                "file": "content/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Сессии"
+              "title": "index"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/Сессии/Сессии.md",
+                "file": "content/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Сессии"
+              "title": "Backlinks for index"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/Сессии/Сессии.md",
+                "file": "content/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Сессии"
+              "title": "Outgoing links from index"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/Сессии/Сессии.md",
+                "file": "content/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Сессии"
+              "title": "Outline of index"
             }
           }
         ]
@@ -183,19 +183,21 @@
       "bases:Create new base": false
     }
   },
-  "active": "b0f12d9a2bc7f98e",
+  "active": "ab3a9842e92449b5",
   "lastOpenFiles": [
     "content/Мир/Мир.md",
-    "content/Мир/Пнан.md",
     "content/Мир/Денмарш.md",
     "content/index.md",
     "content/Сессии/Сессии.md",
+    "content/Мир",
+    "content/Сессии/Компания Денмарша.md",
+    "content/Мир/Пнан.md",
     "content/Мир/Денварденн.md",
     "content/Персонажи/Персонажи.md",
     "Денмарш.md",
     "content/_templates",
     "content/Сессии",
     "content/Персонажи",
-    "content/Мир"
+    "content/Пеп"
   ]
 }

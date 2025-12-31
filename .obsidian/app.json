@@ -1,0 +1,10 @@
+{
+  "newFileLocation": "current",
+  "attachmentFolderPath": "content/attachment",
+  "userIgnoreFilters": [
+    ".quartz-cache",
+    "quartz/",
+    "docs/",
+    "node_modules/"
+  ]
+}

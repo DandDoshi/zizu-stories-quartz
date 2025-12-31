@@ -11,14 +11,14 @@
             "id": "ab3a9842e92449b5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "content/Мир/Мир.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Мир"
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             }
           }
         ]
@@ -164,13 +164,23 @@
               "icon": "lucide-list",
               "title": "Outline of Мир"
             }
+          },
+          {
+            "id": "e6d9270bb89f5ffb",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,11 +190,15 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "ab3a9842e92449b5",
   "lastOpenFiles": [
+    "content/Персонажи/Персонажи.md",
+    "content/index.md",
+    "content/Мир/Мир.md",
     "content/attachment/WorldMap.png",
     "content/Персонажи/Мунлайт.md",
     "content/Персонажи/Клариса.md",
@@ -192,7 +206,6 @@
     "content/_templates/Места.md",
     "content/Персонажи/Эрдан Эвенвуд.md",
     "content/attachment/Эрдан.jpg",
-    "content/Мир/Мир.md",
     "content/attachment/денмаршNewNort3.png",
     "content/attachment",
     "content/Мир/Денварденн.md",
@@ -200,11 +213,9 @@
     "content/Сессии/Сессии.md",
     "content/Сессии/Компания Денмарша №1.md",
     "content/Персонажи/Фариил.md",
-    "content/Персонажи/Персонажи.md",
     "content/Мифология/Сунэ.md",
     "content/Мифология",
     "content/Сессии/Компания Денмарша.md",
-    "content/index.md",
     "content/Мир",
     "content/Мир/Пнан.md",
     "Денмарш.md",

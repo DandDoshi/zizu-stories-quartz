@@ -6,6 +6,7 @@
     "docs/",
     "node_modules/",
     "quartz",
-    "CODE_OF_CONDUCT"
+    "CODE_OF_CONDUCT",
+    "quartz/"
   ]
 }

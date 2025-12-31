@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/index.md",
+                "file": "content/Мир/Мир.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Мир"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/index.md",
+                "file": "content/Мир/Мир.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for index"
+              "title": "Backlinks for Мир"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/index.md",
+                "file": "content/Мир/Мир.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from index"
+              "title": "Outgoing links from Мир"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/index.md",
+                "file": "content/Мир/Мир.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of Мир"
             }
           }
         ]
@@ -185,15 +185,28 @@
   },
   "active": "ab3a9842e92449b5",
   "lastOpenFiles": [
+    "content/attachment/WorldMap.png",
+    "content/Персонажи/Мунлайт.md",
+    "content/Персонажи/Клариса.md",
+    "content/_templates/Персонажи.md",
+    "content/_templates/Места.md",
+    "content/Персонажи/Эрдан Эвенвуд.md",
+    "content/attachment/Эрдан.jpg",
     "content/Мир/Мир.md",
-    "content/Мир/Денмарш.md",
-    "content/index.md",
-    "content/Сессии/Сессии.md",
-    "content/Мир",
-    "content/Сессии/Компания Денмарша.md",
-    "content/Мир/Пнан.md",
+    "content/attachment/денмаршNewNort3.png",
+    "content/attachment",
     "content/Мир/Денварденн.md",
+    "content/Мир/Денмарш.md",
+    "content/Сессии/Сессии.md",
+    "content/Сессии/Компания Денмарша №1.md",
+    "content/Персонажи/Фариил.md",
     "content/Персонажи/Персонажи.md",
+    "content/Мифология/Сунэ.md",
+    "content/Мифология",
+    "content/Сессии/Компания Денмарша.md",
+    "content/index.md",
+    "content/Мир",
+    "content/Мир/Пнан.md",
     "Денмарш.md",
     "content/_templates",
     "content/Сессии",

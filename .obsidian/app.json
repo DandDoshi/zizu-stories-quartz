@@ -3,8 +3,10 @@
   "attachmentFolderPath": "content/attachment",
   "userIgnoreFilters": [
     ".quartz-cache",
-    "quartz/",
     "docs/",
-    "node_modules/"
+    "node_modules/",
+    "quartz",
+    "CODE_OF_CONDUCT",
+    "quartz/"
   ]
 }

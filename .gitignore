@@ -1,0 +1,17 @@
+# Системные папки Node.js (Quartz)
+node_modules/
+.quartz-cache/
+public/
+
+# Настройки Obsidian (чтобы не конфликтовали мастера)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Временные файлы и мусор ОС
+.DS_Store
+Thumbs.db
+*.log
+
+# Системные папки IDE (WebStorm, VS Code)
+.idea/
+.vscode/

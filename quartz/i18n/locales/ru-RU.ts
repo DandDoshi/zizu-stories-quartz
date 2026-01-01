@@ -58,7 +58,7 @@ export default {
       title: "Оглавление",
     },
     contentMeta: {
-      readingTime: ({ minutes }) => `время чтения ~${minutes} мин.`,
+      readingTime: ({ minutes }) => `время чтения ~${minutes} мин. (Для Зизу ~ ${minutes*7} мин.)`,
     },
   },
   pages: {
@@ -69,7 +69,8 @@ export default {
     },
     error: {
       title: "ОЙ-ОЙ! Тупик!",
-      notFound: "Зизу всё обыскала, но тут пусто. Может, это тайник, а может, страницу съели крысы...",
+      notFound:
+        "Зизу всё обыскала, но тут пусто. Может, это тайник, а может, страницу съели крысы...",
       home: "Вернуться к Зизу (на главную)",
     },
     folderContent: {

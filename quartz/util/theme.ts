@@ -172,5 +172,18 @@ ${stylesheet.join("\n\n")}
   --highlight: ${theme.colors.darkMode.highlight};
   --textHighlight: ${theme.colors.darkMode.textHighlight};
 }
+
+/* Наша новая Болотная тема */
+:root[saved-theme="swamp"] {
+  --light: #161b10;
+  --lightgray: #2d3621;
+  --gray: #5c6b4a;
+  --darkgray: #d4decc;
+  --dark: #f0f5ed;
+  --secondary: #a3be8c;
+  --tertiary: #ebcb8b;
+  --highlight: rgba(163, 190, 140, 0.1);
+  --textHighlight: rgba(235, 203, 139, 0.4);
+}
 `
 }

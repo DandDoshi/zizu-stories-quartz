@@ -63,19 +63,19 @@ export default {
   },
   pages: {
     rss: {
-      recentNotes: "Недавние заметки",
+      recentNotes: "Свежие байки",
       lastFewNotes: ({ count }) =>
-        `Последн${getForm(count, "яя", "ие", "ие")} ${count} замет${getForm(count, "ка", "ки", "ок")}`,
+        `Последн${getForm(count, "яя", "ие", "ие")} ${count} запис${getForm(count, "ь", "и", "ей")} в блокноте Зизу`,
     },
     error: {
-      title: "Страница не найдена",
-      notFound: "Эта страница приватная или не существует",
-      home: "Вернуться на главную страницу",
+      title: "ОЙ-ОЙ! Тупик!",
+      notFound: "Зизу всё обыскала, но тут пусто. Может, это тайник, а может, страницу съели крысы...",
+      home: "Вернуться к Зизу (на главную)",
     },
     folderContent: {
       folder: "Папка",
       itemsUnderFolder: ({ count }) =>
-        `в этой папке ${count} элемент${getForm(count, "", "а", "ов")}`,
+        `Зизу нашла тут ${count} штуковин${getForm(count, "у", "ы", "")}`,
     },
     tagContent: {
       tag: "Тег",

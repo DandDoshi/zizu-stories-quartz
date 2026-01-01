@@ -1,3 +1,60 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+/* Болотная тема */
+/* Использовал [saved-theme], чтобы совпадало с логикой Quartz */
+:root[saved-theme="swamp"] {
+  --light: #161b10;       /* Глубокая тина (фон) */
+  --lightgray: #2d3621;   /* Границы и разделители */
+  --gray: #5c6b4a;        /* Второстепенный текст */
+  --darkgray: #d4decc;    /* Основной текст (светлый мох) */
+  --dark: #f0f5ed;        /* Заголовки (костяной белый) */
+  --secondary: #a3be8c;   /* Ссылки (гоблинский зеленый) */
+  --tertiary: #ebcb8b;    /* Акценты (старое золото) */
+  --highlight: rgba(163, 190, 140, 0.15); /* Выделение строк */
+  --textHighlight: rgba(235, 203, 139, 0.4); /* Маркер (highlight) */
+
+  /* Кастомный скроллбар для болота */
+  scrollbar-color: var(--gray) var(--light);
+}
+
+/* 1. Скрываем все иконки по умолчанию */
+.darkmode svg {
+  display: none !important;
+  margin: auto;
+}
+
+/* 2. Отображаем иконку, соответствующую ТЕКУЩЕЙ теме */
+:root[saved-theme="light"] .darkmode svg.dayIcon {
+  display: block !important;
+}
+
+:root[saved-theme="dark"] .darkmode svg.nightIcon {
+  display: block !important;
+}
+
+:root[saved-theme="swamp"] .darkmode svg.swampIcon {
+  display: block !important;
+  width: 1.5rem;
+  height: 1.5rem;
+  color: var(--secondary);
+  transform: translateY(-1px);
+}
+
+/* Эффекты для болотной иконки */
+.darkmode:hover svg.swampIcon {
+  color: var(--tertiary);
+  filter: drop-shadow(0 0 3px rgba(163, 190, 140, 0.5));
+  transition: transform 0.2s ease;
+}
+
+/* Улучшение читаемости кода в болотной теме */
+:root[saved-theme="swamp"] pre {
+  border: 1px solid var(--lightgray);
+  background: rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Цвет выделения текста (Selection) */
+:root[saved-theme="swamp"] *::selection {
+  background: var(--tertiary);
+  color: var(--light);
+}

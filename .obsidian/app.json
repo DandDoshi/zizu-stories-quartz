@@ -8,5 +8,6 @@
     "quartz",
     "CODE_OF_CONDUCT",
     "quartz/"
-  ]
+  ],
+  "alwaysUpdateLinks": true
 }

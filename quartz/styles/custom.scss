@@ -58,3 +58,20 @@
   background: var(--tertiary);
   color: var(--light);
 }
+
+/* Унификация картинок в инфобоксах */
+.infobox img {
+  width: 100% !important;
+  max-height: 300px !important; /* Оптимальная высота для вертикальных портретов */
+  object-fit: cover !important;  /* Обрезает лишнее, сохраняя центр, если картинка слишком длинная */
+  object-position: top;          /* Приоритет на лица (верхнюю часть фото) */
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Убираем лишние отступы у инфобокса на мобилках */
+.infobox {
+  max-width: 300px; /* Ограничиваем ширину самого блока */
+  float: right;     /* Прижимаем к правому краю, как в Вики */
+  margin: 0 0 1rem 1rem;
+}
